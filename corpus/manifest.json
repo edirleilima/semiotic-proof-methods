@@ -1,0 +1,26 @@
+{
+  "version": "2.0",
+  "files": {
+    "corpus/math.jsonl": {
+      "sha256": "3c8c878b1d4cb807ab13bcb4099bc3f9a2b6cb963129979e5b79321f9884c650",
+      "n_items": 627,
+      "bytes": 755818
+    },
+    "corpus/everyday.jsonl": {
+      "sha256": "e0bd15350a10c0448eb198342260d39f2ef73c010af5949db24681e95544ee1c",
+      "n_items": 99,
+      "bytes": 65449
+    },
+    "corpus/legal.jsonl": {
+      "sha256": "5b70383f5426af25b5dd86d9b8d0107a92af09a7d637c903b8efd1db47982cac",
+      "n_items": 440,
+      "bytes": 518329
+    }
+  },
+  "counts": {
+    "math": 627,
+    "everyday": 99,
+    "legal": 440
+  },
+  "total": 1166
+}
