@@ -1,0 +1,44 @@
+{
+  "scheme": "primary",  
+  "order": [
+    "SYN",
+    "PAR",
+    "ANT",
+    "MER"
+  ],
+  "relations": [
+    {
+      "code": "SYN",
+      "name": "syntagmatic",
+      "axis": "contiguity, sequence",
+      "trope": "metonymy",
+      "method": "inference",
+      "body": "S is a logical consequence of S*. The reasoner locates a rule or prior result and applies it to reach S. Includes syllogism, rule application, chained deduction, and defeasible warrant-based argument."
+    },
+    {
+      "code": "PAR",
+      "name": "paradigmatic",
+      "axis": "similarity, alternatives",
+      "trope": "metaphor",
+      "method": "analogy",
+      "body": "After suitable mappings, the relevant features of S are converted into features of S*. The reasoner solves the mapped problem instead of the original one. The analogue often lies in another domain, as when a scheduling problem is mapped onto graph colouring, but it need not: mapping one case onto a structurally similar case within the same domain is still PAR, as when a problem is solved by blending a situation with a parallel version of itself. What matters is that a correspondence is drawn between two cases and the argument runs through it. Includes reduction, structural analogy, argument from a parallel case, and conceptual blending."
+    },
+    {
+      "code": "ANT",
+      "name": "antithetic",
+      "axis": "opposition, negation",
+      "trope": "irony",
+      "method": "contradiction",
+      "body": "S* is shown to be inconsistent under the assumption of ¬S. Includes reductio ad absurdum and any argument whose force comes from the untenability of the denial. Concession is not ANT. Granting a point and then arguing past it (\"Of course X, but Y\"; \"Admittedly X; nevertheless Y\") is a rhetorical move, not an argument from inconsistency; label such passages by whatever establishes the main claim. Nor is mere contrast between two things ANT. The test is whether denying the claim is shown to lead to something untenable."
+    },
+    {
+      "code": "MER",
+      "name": "meronymic",
+      "axis": "hierarchy, details",
+      "trope": "synecdoche",
+      "method": "case analysis",
+      "body": "S* is a set of statements into which S decomposes exhaustively, each handled separately. Includes case splits, exhaustion, and finite induction (base case + induction step)."
+    }
+  ],
+  "none_body": "the artifact establishes S by a move none of the four captures, or makes no identifiable argumentative move at all. Do not stretch a category to avoid NONE; its rate is a result, not a failure. But NONE is not a way to record uncertainty. If the passage does make one of the four moves and you are merely unsure which, pick the best fit and set confidence to 1. Reserve NONE for passages where no category applies, for instance a passage that asserts a conclusion without supporting it, or recites facts without drawing an inference. Note that a practical or normative conclusion drawn from stated circumstances is still SYN: the warrant may be implicit and defeasible without ceasing to be an inference."
+}
